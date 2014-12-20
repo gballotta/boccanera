@@ -118,7 +118,35 @@
 			
 		</div> <!-- End Carousel -->
 		<div class="row" id="bigCallout">
-			
+			<div class="col-12">
+				
+				<div class="alert alert-success fade in" id="successAlert">
+					<button type="button" class="close" data-dismiss="alert">&times;</button>
+					<h4>Success!</h4>
+					<p>
+						You just made this element display by using jQuery. Click the "x" in the top right
+						corner to close this bad boy.
+					</p>
+				</div>
+				
+				<!-- Visible only on small devices -->
+				<div class="well well-small visible-sm">
+					<a href="#" class="btn btn-large btn-block btn-default">
+						<span class="glyphicon glyphicon-phone"></span> Give us a call!
+					</a>
+				</div> <!-- End visible only on small devices -->
+				<div class="well">
+					<div class="page-header">
+						<h1>A Fancy Header <small>A subheader for extra awesome</small></h1>
+					</div>
+					<p class="lead">
+						Some solid leading copy will help get your users engaged. Use this area
+						to come up with something real nice. Know what i'm saying?
+					</p>
+					<a href="#" class="btn btn-primary btn-large" id="alertMe">Click a nice big button!</a>
+					<a href="#" class="btn btn-link btn-large">Or a secondary link</a>
+				</div>
+			</div>
 		</div> <!-- End bigCallout row -->
 		<div class="row" id "featuresHeading">
 			
@@ -144,7 +172,7 @@
 	<script src="http://code.jquery.com/jquery.js"></script>
 	
 	<!-- If no online access, fallback to our hardcoded version of jQuery -->
-	<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+	<script src="includes/js/jquery-1.8.2.min.js"></script>
 	
 	<!-- Bootstrap JS -->
 	<script src="bootstrap/js/bootstrap.min.js"></script>
